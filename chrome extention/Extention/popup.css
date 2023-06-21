@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 300px;
+    width: 300px;
+  }
+table {
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+#heading{
+    display: flex;
+}
+#text{
+    align-items: center;
+    display: flex;
+}
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+.neutral {
+    color: blue;
+}
